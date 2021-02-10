@@ -1,0 +1,274 @@
+
+*{ 
+  margin: 0;
+  padding: 0; }
+
+:focus,:active {
+  	outline: 0; }
+
+body { 
+    font: 14px Tahoma, Arial, Sans-Serif; 
+	color: #000; 
+	background:#EFEBE9;}
+
+a { 
+   text-decoration: none; 
+   color: #000; }
+a:hover { color: #000; }
+
+.x { clear: both; }
+
+p { 
+  line-height: 22px;  
+  margin: 0 0 22px;  
+  color:#666;  }
+
+img { border: 0; }
+
+h1 { 
+   font-size: 24px;
+   font-family:'New Rocker';
+   font-weight: normal;
+   margin-bottom: 15px;
+   text-shadow:5px 5px 10px #1A237E;
+   box-shadow:5px 5px 5px #1A237E;}
+
+h2 { 
+   font-size: 14px; 
+   font-family: 'Rye';
+   font-weight: normal;
+   margin-bottom: 2px; 
+   color: #333; 
+   text-shadow:5px 5px 10px #9C27B0;}
+
+#sayfa { 
+    margin: 0 auto;
+	width: 980px; 
+	background: url(../images/banner.jpg) no-repeat;
+	background-size:cover;
+	}
+
+#logo { 
+   padding: 20px 12px 10px;
+   width:400px;
+   font-size:30px;
+   letter-spacing:3px;
+   font-family:Impact;
+   box-shadow:5px 5px 10px grey;
+   text-shadow:5px 5px 10px #311b92;
+  
+}
+#logo h1 { 
+   font: bold 24px Arial; 
+   text-shadow: 1px 1px 1px #fff; 
+   letter-spacing: 4px; }
+
+#logo h1 a { 
+   color: #333; }
+
+#logo h1 a span { 
+   color: #311b92; }
+
+#content { 
+    background: #F5F5F5; 
+    width: 980px; 
+}
+
+
+#arama { 
+    float: right;  
+	width: 280px; 
+	margin: 25px 18px; 
+	display: inline; }
+	
+#arama .text {  
+   width: 227px; 
+   height: 16px;
+   border: 1px solid #ddd; 
+   padding: 5px; 
+   float: left; 
+   color: #888; }
+
+#arama .submit {
+		float: right;
+		border: 0; 
+		background: #000 url(../images/search.gif) no-repeat center 8px;
+		width: 32px; 
+		height: 28px;
+		padding-top: 0px; 
+}
+
+#images { margin-bottom: 50px; }
+
+#images .infoline { 
+	margin-top: -70px;
+	padding: 25px 0 25px 25px; 
+	background: #000;
+	font-size: 20px; 
+	width: 955px; 
+	height: 18px; 
+	opacity:0.70; 
+	filter:alpha(opacity=70); 
+	color: #fff;
+	}
+
+.images-gallery {
+	overflow: hidden;
+	width: 980px;
+	position: relative;
+	}
+.images-gallery-holder { 
+    width: 5000px; 
+	position: relative;	
+	top: 0px; 
+	left: 0; }
+.images-gallery-div {
+	float: left; 
+	}
+		
+#left { 
+     width: 600px; 
+	 float: left; 
+	 margin-left: 25px; 
+	 display: inline; }
+
+ul { 
+   color: #666;  
+   margin: 0 0 10px 30px; 
+   line-height: 18px; }
+
+ol { 
+   color: #666; 
+   margin: 5px 0 5px 30px;
+   line-height: 18px; }
+	
+#contact-back {
+	margin: 12px 40px 0 0; 
+	float: right; }
+
+
+#right {
+	width: 260px; 
+	float: right;
+	border-left: 1px solid #ccc; 
+	padding-left: 36px; 
+	margin-right: 25px; 
+	display: inline; }
+	
+#aşağı { 
+    margin-left: 25px;  
+	padding-bottom: 10px; }
+	
+#aşağı ul { 
+   margin-top: -11px; }
+	
+.small-post {  
+    float: left; 
+	width: 260px;
+	margin-right: 75px; }
+
+
+
+.last { 
+    margin-right: 0; }
+
+.post-info { 
+    font-size: 15px; 
+	color: #999; }
+
+.read-more { 
+    background: url(../images/link.gif) no-repeat center left; 
+    padding-left: 13px; 
+	font-size: 10px; }
+
+.break {
+	border-top: 1px solid #ccc; 
+	margin: 30px 0; 
+	display: block; }
+
+.no-border { 
+   border: 0; }
+
+.space { 
+    margin-bottom: 20px; }
+
+
+.menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.menu li{
+  float: left;
+  position: relative;
+  width: 120px;
+}
+ 
+.menu ul li ul{
+  display: none;
+}
+ 
+.menu ul li:hover ul{
+  display: block;
+}
+ 
+.menu ul li a{
+  text-decoration: none;
+  background: #f5f5f5;
+  display: block;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  border-bottom: 2px solid #311b92;
+  border-left: 1px solid #311b92;
+  padding: 5px;
+}
+ 
+.menu ul li ul li a{
+  background: #f5f5f5;
+  text-align: left;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  font-size: .8em;
+}
+ 
+.menu li a:hover{
+
+  background:	#C5CAE9;
+  transition: .5s;
+
+}
+ 
+.menu ul li ul li a:hover{
+  padding-left: 15px;
+  
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.arrow {
+
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.yukarı
+{
+	float: right;
+
+}
+
+.efekt
+{
+	transition:.5s;
+}
+
+#footer { 
+    color: #666; 
+	font-size: 11px; 
+	margin: 20px 0 20px 10px; }
